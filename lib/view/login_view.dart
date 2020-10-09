@@ -6,7 +6,6 @@ import 'package:google_fonts/google_fonts.dart';
 class LoginView extends StatelessWidget {
   final LoginController _loginController = Get.put(LoginController());
   final _formKey = GlobalKey<FormState>();
-  bool _obscureText = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
